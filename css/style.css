@@ -823,13 +823,13 @@ input, select, textarea {margin :0;}
     margin-top: 150px;
 }
 .bg-discount{
-    background-image: url("../img/discount.jpg");
+    background-image: url("../img/main-collection.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 450px;
     position: relative;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 }
 .overlay-discount{
     position: absolute;
@@ -909,7 +909,7 @@ input, select, textarea {margin :0;}
 /****************FOOTER SECTION*******************/
 .footer{
     padding-top: 75px;
-    border-top: 0.5px solid #222222a8;
+    /*border-top: 0.5px solid #222222a8;*/
 }
 ul.footer_ul{
     list-style: none;
@@ -937,6 +937,12 @@ li.footer_list:hover{
     background-color: #222;
     -webkit-animation: .8s ease;
     animation: .8s ease;
+}
+li.footer_list a{
+    color:#222;
+}
+li.footer_list a:hover{
+    color:#fff;
 }
 .footer_text{
     text-align: center;
