@@ -647,6 +647,16 @@ input, select, textarea {margin :0;}
     border: 1px solid #222;
     color: #fff;
 }
+.trans-btn-white{
+    background-color: transparent;
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+.trans-btn-white:hover{
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    color: #222;
+}
 .black-btn:hover{
     background-color: transparent;
     color: #222;
@@ -656,6 +666,16 @@ input, select, textarea {margin :0;}
     background-color: #222;
     border: 1px solid #222;
     color: #fff;
+}
+.white-btn{
+    background-color: #FFF;
+    color: #222;
+    border: 1px solid #FFF;
+}
+.white-btn:hover{
+    background-color: #FFF;
+    border: 1px solid #222;
+    color: #222;
 }
 
 /*************BRIDAL WEAR SECTION START*************/
@@ -2186,7 +2206,11 @@ span{
         padding-top: 11px;
     }
     .rounded-bar {
-        padding: 10px 26px 10px 0;
+        padding: 10px 24px;
+    }
+    .logo-menu {
+        width: 220px;
+        margin-left: 6%;
     }
     .slider-text .heading {
         font-size: 17px;
